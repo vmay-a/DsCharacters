@@ -1,0 +1,147 @@
+let personagens = [
+    {
+        titulo: "Wilson",
+        descricao: "O protagonista original e um cientista dedicado. Ele é bem equilibrado, com um bom nível de saúde e sanidade. Sua habilidade especial é fazer crescer uma barba magnífica que pode ser usada como fonte de calor no inverno.",
+        link: "https://dontstarve.wiki.gg/wiki/Wilson",
+        imagem:"wilson.webp",
+    },
+    {
+        titulo: "Willow",
+        descricao: "Uma jovem com um temperamento explosivo e uma paixão por fogo. Ela pode acender objetos com sua tocha e tem resistência ao fogo, mas sua sanidade diminui mais rapidamente perto de chamas.",
+        link: "https://dontstarve.wiki.gg/wiki/Willow",
+        imagem:"Willow.webp",
+    },
+    {
+        titulo: "Wolfgang",
+        descricao: "Um forte e valente guerreiro que fica mais poderoso quando bem alimentado e enfraquecido quando faminto. Sua força é um grande trunfo em combate, mas sua saúde e sanidade são impactadas por sua fome.",
+        link: "https://dontstarve.wiki.gg/wiki/Wolfgang",
+        imagem: "Wolfgang.webp",
+    },
+    {
+        titulo: "Wendy",
+        descricao: " Uma menina triste com um espírito sombrio. Ela pode invocar o fantasma de sua irmã gêmea, Abigail, para ajudar em combate. Wendy é mais fraca em termos de saúde, mas pode lidar bem com inimigos.",
+        link: "https://dontstarve.wiki.gg/wiki/Wendy",
+        imagem: "Wendy.webp",
+    },
+    {
+        titulo: "WX-78",
+        descricao: "Um robô que pode ser atualizado com peças e pode absorver eletricidade para ganhar vantagens. Sua saúde é diretamente afetada pelo ambiente (por exemplo, ele sofre com a chuva) e ele tem um nível de sanidade que pode ser modificado com o tempo.",
+        link: "https://dontstarve.wiki.gg/wiki/WX-78",
+        imagem: "WX-78.webp",
+    },
+    {
+        titulo: "Wickerbottom",
+        descricao: "Uma bibliotecária erudita que pode criar livros mágicos com efeitos especiais. Ela tem pouca saúde, mas é muito útil devido às suas habilidades de criação de itens e receitas.",
+        link: "https://dontstarve.wiki.gg/wiki/Wickerbottom",
+        imagem: "Wickerbottom.webp",
+    },
+    {
+        titulo: "Woodie",
+        descricao: "Um lenhador com um machado mágico que o transforma em um alce (Wendigo) quando está estressado. Sua transformação dá-lhe força, mas também compromete sua sanidade e saúde.",
+        link: "https://dontstarve.wiki.gg/wiki/Woodie",
+        imagem: "Woodie.webp",
+    },
+    {
+        titulo: "Wes",
+        descricao: "Um mímico silencioso e frágil com pouca saúde e sanidade. Seus recursos são limitados, mas ele pode usar balões para criar distrações e ajudar seus colegas.",
+        link: "https://dontstarve.wiki.gg/wiki/Wes",
+        imagem: "Wes.webp",
+    },
+    {
+        titulo: "Maxwell",
+        descricao: "O antagonista original que se transformou em um ser sombrio. Maxwell tem habilidades especiais para invocar sombras que o ajudam em combate. Ele possui uma saúde e sanidade mais baixas em comparação com outros personagens.",
+        link: "https://dontstarve.wiki.gg/wiki/Maxwell",
+        imagem: "Maxwell.webp",
+    },
+    {
+        titulo: "Wigfrid",
+        descricao: "Uma guerreira com uma paixão por batalhas e teatro. Ela possui alta resistência e pode usar a força do combate para restaurar sua sanidade e saúde. Sua alimentação é baseada em carne e seu poder aumenta com a luta.",
+        link: "https://dontstarve.wiki.gg/wiki/Wigfrid",
+        imagem: "Wigfrid.webp",
+    },
+    {
+        titulo: "Warly",
+        descricao: "Um chef apaixonado por culinária. Ele pode cozinhar pratos gourmet que oferecem diversos benefícios e possui um inventário único para armazenamento de ingredientes e receitas. Seu principal desafio é lidar com sua fome.",
+        link: "https://dontstarve.wiki.gg/wiki/Warly",
+        imagem: "Warly.webp",
+    },
+    {
+        titulo: "Walani",
+        descricao: "Uma surfista relaxada e otimista com um talento especial para lidar com as condições climáticas tropicais. Ela possui uma habilidade para criar uma proteção solar e lidar com o calor, facilitando a sobrevivência em ambientes quentes.",
+        link: "https://dontstarve.wiki.gg/wiki/Walani",
+        imagem: "Walani.webp",
+    },
+    {
+        titulo: "Wilbur",
+        descricao: "Um macaco que é nativo da ilha. Ele pode se transformar em um personagem mais forte e usar truques de macaco para obter benefícios, como a habilidade de realizar furtos.",
+        link: "https://dontstarve.wiki.gg/wiki/Wilbur",
+        imagem: "Wilbur.webp",
+    },
+    {
+        titulo: "Woodlegs",
+        descricao: "Um pirata que encontrou um pedaço de terra e criou uma base. Ele pode usar suas habilidades de pirata para encontrar e navegar em áreas aquáticas e tem um estilo de jogo único centrado no mar.",
+        link: "https://dontstarve.wiki.gg/wiki/Woodlegs",
+        imagem: "Woodlegs.webp",
+    },
+    {
+        titulo: "Wagstaff",
+        descricao: "Um cientista excêntrico que pode usar uma variedade de gadgets e dispositivos para obter vantagens, explorar o mundo e resolver problemas. Ele possui uma habilidade de criar máquinas que ajudam na sobrevivência e exploração.",
+        link: "https://dontstarve.wiki.gg/wiki/Wagstaff",
+        imagem: "Wagstaff.webp",
+    },
+    {
+        titulo: "Wormwood",
+        descricao: "A árvore com uma conexão profunda com a natureza.",
+        link: "https://dontstarve.wiki.gg/wiki/Wormwood",
+        imagem: "Wormwood.webp",
+    },
+    {
+        titulo: "Wilba",
+        descricao: "Uma jovem porca com habilidades baseadas na sua conexão com o porcalhário. Ela pode se transformar em um porco e ganhar vantagens temporárias durante essas transformações, além de ter uma relação única com o porcalhário.",
+        link: "https://dontstarve.wiki.gg/wiki/Wilba",
+        imagem: "Wilba.webp",
+        
+    },
+    {
+        titulo: "Wheeler",
+        descricao: "Uma aventureira com um desejo de exploração e um talento para a construção de equipamentos úteis. Ela tem uma habilidade especial para criar um balão que pode ser usado para explorar áreas rapidamente e alcançar lugares altos.",
+        link: "https://dontstarve.wiki.gg/wiki/Wheeler",
+        imagem: "Wheeler.webp",
+    },
+    {
+        titulo: "Walter",
+        descricao: "Um menino explorador que é ótimo com armas de longo alcance. Ele possui um cachorro, Woby, que pode ajudar no transporte e na coleta de itens.",
+        link: "https://dontstarve.wiki.gg/wiki/Walter",
+        imagem: "Walter.webp",
+    },
+    {
+        titulo: "Winona",
+        descricao: "Uma engenheira prática que pode construir estruturas mais rapidamente e usar ferramentas e máquinas para criar invenções úteis. Sua habilidade principal é a capacidade de criar e utilizar equipamentos como geradores e máquinas.",
+        link: "https://dontstarve.wiki.gg/wiki/Winona",
+        imagem: "Winona.webp",
+    },
+    {
+        titulo: "Wurt",
+        descricao: "Uma pequena tritão com habilidades únicas relacionadas à água. Ela pode construir uma base aquática e tem uma relação especial com criaturas marinhas. Sua saúde é limitada e ela é sensível à seca.",
+        link: "https://dontstarve.wiki.gg/wiki/Wurt",
+        imagem: "Wurt.webp",
+    },
+    {
+        titulo: "Wortox",
+        descricao: "Um demônio travesso que pode teleportar-se para curar a si mesmo e aos outros. Ele também tem uma habilidade única de coletar almas dos inimigos derrotados e usá-las para ganhar vida ou converter para os recursos.",
+        link: "https://dontstarve.wiki.gg/wiki/Wortox",
+        imagem: "Wortox.webp",
+    },
+    {
+        titulo: "Wanda",
+        descricao: "Uma viajante do tempo com a capacidade de alterar a passagem do tempo e adaptar seu gameplay em função dos desafios temporais.",
+        link: "https://dontstarve.wiki.gg/wiki/Wanda",
+        imagem: "Wanda.webp",
+    },
+    {
+        titulo: "Webber",
+        descricao: "Um menino-aranha que pode construir teias e conviver com aranhas. Ele tem uma saúde e sanidade relativamente equilibradas, e seus aliados aracnídeos podem ser bastante úteis.",
+        link: "https://dontstarve.wiki.gg/wiki/Webber",
+        imagem: "Webber.webp",
+    }
+]

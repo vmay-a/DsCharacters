@@ -1,0 +1,213 @@
+/* Importando a fonte Big Don't Starve */
+@font-face {
+    font-family: 'BigDontStarve';
+    src: url('fonts/belisa_plumilla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicando a fonte */
+h1, h2, h3, h4, h5, button {
+    font-family: 'BigDontStarve', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #D3C6A6; /* Fundo claro com leve toque de amarelo */
+    color: #ffffff; /* Texto escuro com tom marrom */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-image: url('imagens/Fundo.png ');
+}
+
+/* Header principal */
+header {
+    /*background-color: #e6dcc6; !* Fundo do cabeçalho mais escuro *!*/
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);*/
+}
+
+body {
+    background-color: #D3C6A6; /* Fundo claro com leve toque de amarelo */
+    color: #3C2F2C; /* Texto escuro com tom marrom */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body preencha a altura total da viewport */
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+main {
+    flex: 1; /* Faz o main crescer e preencher o espaço disponível */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 4.5rem;
+    color: #ffffff; /* Cor clara para o título */
+    text-shadow: 2px 2px 4px #000;
+    letter-spacing: 0.2rem;
+    margin: 0;
+}
+
+/* Seção principal */
+section {
+    background-color: #E8DEC8; /* Fundo da seção mais claro */
+    padding: 0.8rem;
+    border-radius: 12px;
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto;
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título da seção */
+section h2 {
+    font-size: 2rem;
+    color: #3C2F2C; /* Texto escuro com tom marrom */
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+}
+
+section input::placeholder {
+    color: #4A423E; /* Placeholder escuro */
+}
+
+/* Nome do personagem com imagem de fundo */
+h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    background-image: url('imagens/placa.webp');
+    background-repeat: no-repeat;
+    background-size: 45% 45%;
+    background-position: center;
+    width: 30%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+/*imagem do personagem*/
+
+
+/* Input de pesquisa */
+section input {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #4A423E;
+    background-color: #F1E6D6; /* Fundo mais claro */
+    color: #3C2F2C; /* Texto escuro */
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 0px #000;
+    text-align: center;
+}
+
+/* Botão */
+section button {
+    width: 60%;
+    background-color: #3C2F2C; /* Fundo do botão com foto */
+    background-size: contain;
+    color: #d8b99b; /* Texto escuro */
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+section button:hover {
+    background-color: #604f4a; /* Tom mais escuro no hover */
+}
+
+/* Resultados da pesquisa */
+.resultados-pesquisa {
+    background-color: #E8DEC8; /* Fundo claro */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 2.5rem 0;
+    width: 100%;
+    text-align: left;
+}
+
+.item-resultado a {
+    color: #3C2F2C; /* Cor escura para os links */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #302922; /* Fundo escuro do rodapé */
+    color: #F1E6D6; /* Texto claro */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.2);
+    position: relative; /* Remove a altura fixa e permite que o conteúdo determine o tamanho */
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section input {
+        font-size: 1.2rem;
+    }
+
+    section button {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}
