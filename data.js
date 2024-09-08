@@ -3,7 +3,7 @@ let personagens = [
         titulo: "Wilson",
         descricao: "O protagonista original e um cientista dedicado. Ele é bem equilibrado, com um bom nível de saúde e sanidade. Sua habilidade especial é fazer crescer uma barba magnífica que pode ser usada como fonte de calor no inverno.",
         link: "https://dontstarve.wiki.gg/wiki/Wilson",
-        imagem:"wilson.webp",
+        imagem:"Wilson.webp",
     },
     {
         titulo: "Willow",
